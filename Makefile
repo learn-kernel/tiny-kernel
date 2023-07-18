@@ -5,7 +5,7 @@ AS	=as --32
 LD	=ld
 LDFLAGS =-m elf_i386 -Ttext 0 -e startup_32 -s -x -M
 
-all:	Image
+all: Image doc
 
 
 run:
@@ -31,5 +31,9 @@ boot:	boot.s
 	$(AS86) -o boot.o boot.s
 	$(LD86) -s -o boot boot.o
 
+doc:
+	@cd Documentation && make html
+
 clean:
-	rm -f Image System.map core boot head *.o system
+	@rm -f Image System.map core boot head *.o system
+	@cd Documentation && make clean
