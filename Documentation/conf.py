@@ -1,27 +1,30 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
+import sys, os
 
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+sys.path.append(os.path.abspath('sphinxext'))
 
-project = 'TinyDocument'
-copyright = '2023, DingJing'
-author = 'DingJing'
-
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
-extensions = []
-
-templates_path = ['_templates']
-exclude_patterns = []
 
 language = 'zh_CN'
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
+author = 'DingJing'
+project = 'Tiny Kernel'
 html_theme = 'alabaster'
+copyright = 'Copyright 2023 DingJing'
+
+
+extensions = [
+        'myst_parser',
+]
+
+exclude_patterns = []
+templates_path = ['_templates']
 html_static_path = ['_static']
+
+html_theme_options = {
+
+}
+
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'restructuredtext',
+    '.md': 'markdown',
+}

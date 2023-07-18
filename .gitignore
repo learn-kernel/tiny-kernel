@@ -1,7 +1,12 @@
+# directory
+build/
+
+# files
 boot
 head
 system
 Image
+
 # Prerequisites
 *.txt
 *.d
