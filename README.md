@@ -2,7 +2,9 @@
 > 期望实现一个最小的内核
 
 <hr/>
-![Documentation Status](https://readthedocs.org/projects/tiny-kernel/badge/?version=latest)](https://tiny-kernel.readthedocs.io/zh_CN/latest/?badge=latest)
+<a href='https://tiny-kernel.readthedocs.io/zh_CN/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/tiny-kernel/badge/?version=latest' alt='Documentation Status' />
+</a>
     
 
 ## 依赖环境说明
