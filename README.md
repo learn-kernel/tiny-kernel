@@ -1,6 +1,10 @@
 # Tiny Kernel
 > 期望实现一个最小的内核
 
+<hr/>
+[![Documentation Status](https://readthedocs.org/projects/tiny-kernel/badge/?version=latest)](https://tiny-kernel.readthedocs.io/zh_CN/latest/?badge=latest)
+    
+
 ## 依赖环境说明
 
 |环境|说明|
