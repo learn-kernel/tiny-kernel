@@ -1,10 +1,7 @@
-# Tiny Kernel
-> 期望实现一个最小的内核
-
-<hr/>
-<a href='https://tiny-kernel.readthedocs.io/zh_CN/latest/?badge=latest'>
+# Tiny Kernel <a href='https://tiny-kernel.readthedocs.io/zh_CN/latest/?badge=latest'>
     <img src='https://readthedocs.org/projects/tiny-kernel/badge/?version=latest' alt='Documentation Status' />
 </a>
+> 期望实现一个最小的内核
     
 
 ## 依赖环境说明
